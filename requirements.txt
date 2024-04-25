@@ -3,5 +3,4 @@ pdfplumber
 dash
 plotly.express
 gunicorn
-io
 numpy
