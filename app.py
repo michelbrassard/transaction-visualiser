@@ -17,6 +17,7 @@ grouped_transactions = pd.DataFrame()
 
 
 app = Dash(__name__, title='Personal Finance Analytics', suppress_callback_exceptions=True)
+server = app.server
 
 app.layout = html.Div(
     className='wrapper',
