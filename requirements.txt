@@ -2,6 +2,6 @@ pandas
 pdfplumber
 dash
 plotly.express
-base64
+gunicorn
 io
 numpy
