@@ -1,0 +1,7 @@
+pandas
+pdfplumber
+dash
+plotly.express
+base64
+io
+numpy
