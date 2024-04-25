@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    margin: 3rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-pdf {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-left: 4rem;
+}
+#dropdown-selection > .Select-control{
+    background-color: red;
+}
+
+.graphs {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 1.5rem;
+    flex: 1;
+}
+.drag-drop {
+    border: 1px dashed #aaa;
+    border-radius: 1rem;
+    color: #aaa;
+    transition: all .2s;
+}
+.drag-drop:hover {
+    cursor: pointer;
+    color: #555;
+}
+#upload-data {
+    margin-left: 1rem;
+}
+.details {
+    border: 1px dashed #eee;
+    padding: 1rem;
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+}
+.user-select-none .svg-container {
+    background-color: aliceblue;
+}
+
+.error-message {
+    margin: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+
+}
